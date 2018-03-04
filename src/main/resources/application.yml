@@ -1,0 +1,13 @@
+spring:
+  activemq:
+    broker-url: tcp://192.168.66.6:61616
+    user: admin
+    password: admin
+  kafka:
+    bootstrap-servers: 192.168.66.6:9092
+    consumer:
+      group-id: test-consumer-group
+# 若想activemq启用topic，需开启此项
+  jms:
+    pub-sub-domain: true
+debug: false
