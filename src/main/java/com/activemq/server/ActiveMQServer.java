@@ -6,7 +6,7 @@ package com.activemq.server;
 
         import javax.jms.Queue;
 
-@Component
+//@Component
 public class ActiveMQServer {
 
     //    @JmsListener(destination = "testMQ")

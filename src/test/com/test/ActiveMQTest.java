@@ -24,9 +24,9 @@ public class ActiveMQTest {
         ActiveMQ 只生产不消费启动   生产10000条数据：84000ms
         ActiveMQ 只消费不生产启动   消费10000条数据：14471ms
         topic
-        ActiveMQ 生产消费同时启动   生产10000条数据：80605ms
-        ActiveMQ 只生产不消费启动   生产10000条数据：78867ms
-        ActiveMQ 只消费不生产启动   消费10000条数据：无法设置
+        ActiveMQ 生产消费同时启动   生产1w条数据：80605ms
+        ActiveMQ 只生产不消费启动   生产1w条数据：78867ms
+        ActiveMQ 只消费不生产启动   消费1w条数据：无法设置
      */
     @Test
     public void test01() {

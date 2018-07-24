@@ -7,6 +7,9 @@ spring:
     bootstrap-servers: 192.168.66.6:9092
     consumer:
       group-id: test-consumer-group
+  #并没有rocket的自动配置,因此手动添加- -!
+  rocketmq:
+    nameServer: 192.168.66.6:9876
 # 若想activemq启用topic，需开启此项
   jms:
     pub-sub-domain: true
